@@ -16,7 +16,7 @@
 ### 1. สร้าง Replit Project และ Git Clone
 - ไปที่ [https://replit.com/](https://replit.com/) และล็อกอิน
 - คลิก **"+"** หรือ "Create" แล้วเลือก "Import from GitHub"
-- ใส่ URL repository (เช่น `https://github.com/peeranutri/line-bot.git`) แล้วคลิก "Import from GitHub"
+- ใส่ URL repository (เช่น `[https://github.com/peeranutri/line-bot.git](https://github.com/ComSciThammasatU/2567-2-cs403-final-submission-67-1_05_nri-s2)`) แล้วคลิก "Import from GitHub"
 - หรือใช้ Shell รัน: git clone https://github.com/peeranutri/line-bot.git
 - ย้ายไฟล์จากโฟลเดอร์ `line-bot` ไปยัง root directory และลบโฟลเดอร์ `line-bot`:
 mv line-bot/* .

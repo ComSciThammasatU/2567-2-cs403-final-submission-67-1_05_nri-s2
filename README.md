@@ -12,6 +12,37 @@
 **ผู้จัดทำโครงงาน:**
 1. นาย พีรณัฐ ศรีสุตโต 6209650107 peeranut.sri@dome.tu.ac.th
 2. นางสาว ณัฎฐณิชา คำสวัสดิ์ 6309650262 nattanicha.kum@dome.tu.ac.th
+
+# LINE Bot Project Structure
+
+## 📁 โครงสร้างไฟล์
+
+```
+├── config/                 # การตั้งค่าระบบ
+│   ├── lineConfig.js       # การตั้งค่า LINE Bot (Access Token, Channel Secret)
+│   ├── logger.js           # การตั้งค่า Winston Logger
+│   └── mongoConfig.js      # การเชื่อมต่อ MongoDB
+│
+├── logs/                   # ไฟล์ Log
+│   └── bot.log            # Log ของ Bot
+│
+├── models/                 # MongoDB Schema Models
+│   ├── testSchema.js       # Schema สำหรับข้อมูลการทดสอบ
+│   └── userSchema.js       # Schema สำหรับข้อมูลผู้ใช้
+│
+├── utils/                  # Utility Functions
+│   ├── activityRecommendations.js  # คำแนะนำกิจกรรม
+│   ├── helpers.js         # Helper Functions
+│   ├── messageTemplates.js # Template สำหรับข้อความ LINE
+│   └── relaxationVideos.js # ข้อมูลวิดีโอผ่อนคลาย
+│
+├── bot.log              # Log ไฟล์หลัก
+├── index.js             # ไฟล์หลักของ Bot
+├── package.json         # NPM Dependencies
+├── package-lock.json    # Lock file
+├── replit.nix          # Nix configuration
+└── richmenu.png        # รูปภาพ Rich Menu
+```
    
 ### 1. สร้าง Replit Project และ Git Clone
 - ไปที่ [https://replit.com/](https://replit.com/) และล็อกอิน
